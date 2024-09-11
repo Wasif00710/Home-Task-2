@@ -3,60 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marvel Movies</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        .header {
-            background-color: #007bff; /* Blue background color for the header */
-            color: #ffffff; /* White text color for the header */
-            padding: 20px;
-            text-align: center;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            border: 2px solid #007bff; /* Blue border color for tables */
-        }
-        th, td {
-            border: 1px solid #007bff; /* Blue border color for table cells */
-            padding: 12px; /* Padding for table cells */
-        }
-        th {
-            background-color: #f1faee; /* Light background for table headers */
-        }
-        .highlight {
-            background-color: #a8dadc; /* Highlight background color for table cells */
-        }
-        .center {
-            text-align: center;
-        }
-        .cast-table th, .cast-table td {
-            border: 2px solid #007bff; /* Blue border color for cast table */
-            padding: 16px; /* Increased padding for cast table cells */
-        }
-        .logo-container {
-            text-align: center; /* Center-aligns content within this container */
-            margin: 20px 0; /* Adds vertical margin */
-        }
-        blockquote {
-            text-align: left; /* Center-aligns the blockquote text */
-            font-style: italic; /* Italic style for blockquote */
-            margin: 20px auto; /* Margin for spacing */
-            padding: 10px; /* Padding for blockquote */
-            border-left: 4px solid #007bff; /* Left border for emphasis */
-            max-width: 80%; /* Limits the width of the blockquote */
-        }
-    </style>
+    <title>Marvel Movies</title> <!-- Page Title -->
 </head>
 <body>
     <!-- Header with blue background -->
-    <div class="header">
+    <div style="background-color: #007bff; color: #ffffff; padding: 20px; text-align: center;">
         <h1>Marvel Movies</h1> <!-- Page Title -->
     </div>
 
@@ -96,14 +47,14 @@
 
     <!-- Center-aligned Image with Caption -->
     <h2>Marvel Logo</h2>
-    <div class="logo-container">
-        <img src="https://raw.githubusercontent.com/Wasif00710/Home-Task-2/main/pngwing.com.png" alt="Marvel Logo" width="200"> <!-- Image with URL -->
+    <div style="text-align: center; margin: 20px 0;">
+        <img src="https://raw.githubusercontent.com/Wasif00710/Home-Task-2/main/pngwing.com.png" alt="Marvel Logo" width="200"> <!-- Image -->
         <p><i>Image Source: Marvel Studios</i></p>
     </div>
 
     <!-- Table with Row Span and Col Span -->
     <h2>Box Office Collection</h2>
-    <table>
+    <table border="1" cellpadding="12" cellspacing="0" style="width: 100%; border: 2px solid #007bff; border-collapse: collapse;">
         <thead>
             <tr>
                 <th>Movie</th>
@@ -119,14 +70,14 @@
                 <td>Spider-Man: No Way Home</td>
             </tr>
             <tr>
-                <td colspan="2" class="highlight">Total Box Office</td> <!-- Col Span: Combines two columns into one cell -->
+                <td colspan="2" style="background-color: #a8dadc;">Total Box Office</td> <!-- Col Span: Combines two columns into one cell, Color -->
             </tr>
         </tbody>
     </table>
 
     <!-- Table of Cast -->
     <h2>Cast of Avengers: Endgame</h2>
-    <table class="cast-table">
+    <table border="1" cellpadding="16" cellspacing="0" style="width: 100%; border: 2px solid #007bff; border-collapse: collapse;">
         <thead>
             <tr>
                 <th>Actor</th>
@@ -151,7 +102,7 @@
 
     <!-- Individual Table for Fruit -->
     <h2>Fruit Table</h2>
-    <table>
+    <table border="1" cellpadding="12" cellspacing="0" style="width: 100%; border: 2px solid #007bff; border-collapse: collapse;">
         <thead>
             <tr>
                 <th>Fruit</th>
@@ -172,7 +123,7 @@
 
     <!-- Individual Table for Car -->
     <h2>Car Table</h2>
-    <table>
+    <table border="1" cellpadding="12" cellspacing="0" style="width: 100%; border: 2px solid #007bff; border-collapse: collapse;">
         <thead>
             <tr>
                 <th>Car Model</th>
@@ -193,7 +144,7 @@
 
     <!-- Individual Table for Character -->
     <h2>Character Table</h2>
-    <table>
+    <table border="1" cellpadding="12" cellspacing="0" style="width: 100%; border: 2px solid #007bff; border-collapse: collapse;">
         <thead>
             <tr>
                 <th>Character</th>
@@ -212,12 +163,12 @@
         </tbody>
     </table>
 
-    <!-- Center-aligned Blockquote -->
-    <blockquote>
+    <!-- Left-aligned Blockquote -->
+    <blockquote style="text-align: left; font-style: italic; margin: 20px 0; padding: 10px; border-left: 4px solid #007bff; max-width: 80%;">
         "The best way to predict the future is to create it." - Peter Parker <!-- Quotation -->
     </blockquote>
 
     <!-- Link -->
-    <p>For more information, contact me through this <a href="mailto:wasif2220005101955@diu.edu.bd">email</a>.</p> <!-- Email link -->
+    <p>For more information, contact me through this <a href="mailto:wasif2220005101955@diu.edu.bd">email</a>.</p> <!-- Email Link -->
 </body>
 </html>
