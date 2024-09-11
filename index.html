@@ -40,6 +40,18 @@
             border: 2px solid #007bff; /* Blue border color for cast table */
             padding: 16px; /* Increased padding for cast table cells */
         }
+        .logo-container {
+            text-align: center; /* Center-aligns content within this container */
+            margin: 20px 0; /* Adds vertical margin */
+        }
+        blockquote {
+            text-align: center; /* Center-aligns the blockquote text */
+            font-style: italic; /* Italic style for blockquote */
+            margin: 20px auto; /* Margin for spacing */
+            padding: 10px; /* Padding for blockquote */
+            border-left: 4px solid #007bff; /* Left border for emphasis */
+            max-width: 80%; /* Limits the width of the blockquote */
+        }
     </style>
 </head>
 <body>
@@ -82,10 +94,12 @@
         <li>Game of Thrones</li>
     </ul>
 
-    <!-- Image with Caption -->
+    <!-- Center-aligned Image with Caption -->
     <h2>Marvel Logo</h2>
-    <img src="https://raw.githubusercontent.com/Wasif00710/Home-Task-2/main/pngwing.com.png" alt="Marvel Logo" width="200"> <!-- Image with URL -->
-    <p><i>Image Source: Marvel Studios</i></p>
+    <div class="logo-container">
+        <img src="https://raw.githubusercontent.com/Wasif00710/Home-Task-2/main/pngwing.com.png" alt="Marvel Logo" width="200"> <!-- Image with URL -->
+        <p><i>Image Source: Marvel Studios</i></p>
+    </div>
 
     <!-- Table with Row Span and Col Span -->
     <h2>Box Office Collection</h2>
@@ -198,7 +212,7 @@
         </tbody>
     </table>
 
-    <!-- Blockquote -->
+    <!-- Center-aligned Blockquote -->
     <blockquote>
         "The best way to predict the future is to create it." - Peter Parker <!-- Quotation -->
     </blockquote>
