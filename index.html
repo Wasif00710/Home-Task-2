@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel Movies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .header {
+            background-color: #007bff; /* Blue background color for the header */
+            color: #ffffff; /* White text color for the header */
+            padding: 20px;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border: 2px solid #007bff; /* Blue border color for tables */
+        }
+        th, td {
+            border: 1px solid #007bff; /* Blue border color for table cells */
+            padding: 12px; /* Padding for table cells */
+        }
+        th {
+            background-color: #f1faee; /* Light background for table headers */
+        }
+        .highlight {
+            background-color: #a8dadc; /* Highlight background color for table cells */
+        }
+        .center {
+            text-align: center;
+        }
+        .cast-table th, .cast-table td {
+            border: 2px solid #007bff; /* Blue border color for cast table */
+            padding: 16px; /* Increased padding for cast table cells */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header with blue background -->
+    <div class="header">
+        <h1>Marvel Movies</h1> <!-- Page Title -->
+    </div>
+
+    <!-- Unordered List -->
+    <h2>Top Marvel Movies</h2>
+    <ul>
+        <li>Avengers: Endgame</li>
+        <li>Spider-Man: No Way Home</li>
+        <li>Black Panther</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <h2>My Favorite Marvel Movies</h2>
+    <ol>
+        <li>Iron Man</li>
+        <li>Guardians of the Galaxy</li>
+        <li>Thor: Ragnarok</li>
+    </ol>
+
+    <!-- Favorite Series Movies -->
+    <h2>Favorite Series Movies</h2>
+    <ol>
+        <li>Marvel's Daredevil</li>
+        <li>Marvel's Jessica Jones</li>
+        <li>Marvel's Luke Cage</li>
+        <li>Marvel's The Punisher</li>
+    </ol>
+
+    <!-- Other Favorite Series -->
+    <h2>Other Favorite Series</h2>
+    <ul>
+        <li>The Witcher</li>
+        <li>Stranger Things</li>
+        <li>Breaking Bad</li>
+        <li>Game of Thrones</li>
+    </ul>
+
+    <!-- Image with Caption -->
+    <h2>Marvel Logo</h2>
+    <img src="https://example.com/marvel-logo.png" alt="Marvel Logo" width="200"> <!-- Image with URL -->
+    <p><i>Image Source: Marvel Studios</i></p>
+
+    <!-- Table with Row Span and Col Span -->
+    <h2>Box Office Collection</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Movie</th>
+                <th>Box Office</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Avengers: Endgame</td>
+                <td rowspan="2">$2.798 billion</td> <!-- Row Span: Combines two rows into one cell -->
+            </tr>
+            <tr>
+                <td>Spider-Man: No Way Home</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="highlight">Total Box Office</td> <!-- Col Span: Combines two columns into one cell -->
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Table of Cast -->
+    <h2>Cast of Avengers: Endgame</h2>
+    <table class="cast-table">
+        <thead>
+            <tr>
+                <th>Actor</th>
+                <th>Role</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Robert Downey Jr.</td>
+                <td>Tony Stark / Iron Man</td>
+            </tr>
+            <tr>
+                <td>Chris Evans</td>
+                <td>Steve Rogers / Captain America</td>
+            </tr>
+            <tr>
+                <td>Scarlett Johansson</td>
+                <td>Natasha Romanoff / Black Widow</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Individual Table for Fruit -->
+    <h2>Fruit Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Fruit</th>
+                <th>Color</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Apple</td>
+                <td>Red</td>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td>Yellow</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Individual Table for Car -->
+    <h2>Car Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Car Model</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tesla Model S</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>Ford Mustang</td>
+                <td>2021</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Individual Table for Character -->
+    <h2>Character Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Character</th>
+                <th>Actor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Iron Man</td>
+                <td>Robert Downey Jr.</td>
+            </tr>
+            <tr>
+                <td>Captain America</td>
+                <td>Chris Evans</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Blockquote -->
+    <blockquote>
+        "The best way to predict the future is to create it." - Peter Parker <!-- Quotation -->
+    </blockquote>
+
+    <!-- Link -->
+    <p>For more information, contact me through this <a href="mailto:wasif2220005101955@diu.edu.bd">email</a>.</p> <!-- Email link -->
+</body>
+</html>
